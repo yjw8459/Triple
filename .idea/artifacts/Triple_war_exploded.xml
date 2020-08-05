@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Triple:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Triple_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Triple/web/웹" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Triple" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ojdbc6" />
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="library" level="project" name="cos" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

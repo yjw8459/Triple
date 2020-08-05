@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'DoHyeon-Regular';
+	src: url("../font/DoHyeon-Regular.ttf");
+}
+#LoginTitle {
+	width: 100%;
+	color: #000000;
+	font-family: DoHyeon-Regular;
+	font-size: 30pt;
+}
+#frm table {
+	width: 20%;
+	text-align: center;
+}
+#LoginBtn {
+	background-color: #CC3D3D;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+}
+.LoginInfo {
+	width: 400px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid #CDCDCD;
+}
+.LoginInfo::placeholder {
+	padding: 5px;
+	font-size: 10pt;
+}
+.OrderMenu a{
+	text-decoration: none;
+	font-size: 9pt; 
+	font-color: black;
+}

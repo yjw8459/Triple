@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'DoHyeon-Regular';
+	src: url("../font/DoHyeon-Regular.ttf");
+}
+
+#JoinTitle {
+	width: 100%;
+	color: #000000;
+	font-family: DoHyeon-Regular;
+}
+input[type="checkbox"] {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	text-align: center;
+}
+#OkBtn {
+	margin-top: 10px;
+	width: 400px;
+	height: 50px;
+	background-color: #CC3D3D;
+	border-radius: 5px;
+	border: 1px solid #CDCDCD;
+	color: white;
+	font-weight: bold;
+}
+.text {
+	font-weight: bold;
+}
+.JoinInfo {
+	width: 400px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid #CDCDCD;
+}
+.JoinInfo::placeholder {
+	padding: 5px;
+	font-size: 10pt;
+}
